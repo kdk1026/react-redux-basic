@@ -1,4 +1,4 @@
-import DisplayNumberContainer from '../containers/DisplayNumberContainer';
+import DisplayNumberContainer from "../containers/DisplayNumberContainer";
 
 function DisplayNumberRoot() {
     return (

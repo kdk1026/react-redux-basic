@@ -1,6 +1,7 @@
 import { useState } from "react";
+import store from "../store";
 
-function AddNumber(props) {
+function AddNumber() {
     const [size, setSize] = useState(1);
 
     const onChangeSize = (e) => {
@@ -8,7 +9,7 @@ function AddNumber(props) {
     }
 
     const onClickButton = () => {
-        props.onClickButton(size);
+        store.dispatch({type: 'INCREMENT', size: size});
     }
 
     return (

@@ -1,10 +1,10 @@
-import DisplayNumber from "./DisplayNumber";
+import DisplayNumberContainer from '../containers/DisplayNumberContainer';
 
 function DisplayNumberRoot() {
     return (
         <div>
             <h1>Display Number Root</h1>
-            <DisplayNumber unit="kg" />
+            <DisplayNumberContainer unit="kg" />
         </div>
     )
 }
